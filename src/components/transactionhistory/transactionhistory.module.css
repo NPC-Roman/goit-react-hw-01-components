@@ -1,0 +1,30 @@
+table th,
+table td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+  
+.transactionHistory {
+  width: 300px;
+  margin: 0 auto;
+
+  text-align: center;   
+}
+
+.tableHeader {
+  background-color: aqua;
+  color: black
+}
+
+.tableText {
+  color: black;
+} 
+
+.tableBody:nth-child(odd) {
+  background-color: rgb(196, 196, 196);
+}
+
